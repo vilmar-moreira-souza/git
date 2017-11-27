@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: 12px sans-serif;
+    text-decoration: none;
+}
+
+
+nav {
+   background-color: #27ae60;
+    
+}
+
+nav ul {
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    padding: 15px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+@media(max-width:800px){/* padrao 768*/
+    nav ul{justify-content: space-between;}
+    
+    
+    
+}
+@media(max-width:480px){/* padrao 520*/
+    nav ul{flex-direction: column;align-items: center;}
+    
+    
+    
+}

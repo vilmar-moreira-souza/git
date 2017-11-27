@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+    <!-- menu responsivo 2  -->
+    <html lang="pt-br">
+
+      <head>
+        <title>menu responsivo</title>
+          <meta charset="utf-8">
+          
+          <style>
+              *{margin: 0;padding: 0;}
+              body{background-color: #414950;}
+              .menu{font-family: "impact";font-size: 24px;width: 100%;background-color: cadetblue}
+              .menu ul{list-style: none;display: flex;text-align: center;}
+              .menu ul li{padding: 20px;flex-grow: 1;transition: background-color .2s linear;border: solid 1px transparent;}
+              .menu ul li a{text-decoration: none;color: #fff;}
+            /* #item1{background-color: #f0f;}
+              #item2{background-color: #3adf00;}
+              #item3{background-color: #2eccfa;}
+              #item4{background-color: #f00;}
+              #item5{background-color: #9f81f7;}*/
+              
+              .menu ul li:hover{border: solid 1px #fff;background-color: aqua;|important;cursor: pointer;}
+              
+              @media(max-width: 720px){/*520 originalmente */
+                  .menu ul{display: block;}
+              }
+          
+          </style>
+       </head>
+
+ <body>
+     <nav class="menu">
+         <ul>
+             <li id="item1"><a href="#">home</a></li>
+             <li id="item2"><a href="#">arquivos</a></li>
+             <li id="item3"><a href="#">cursos</a></li>
+             <li id="item4"><a href="#">noticias</a></li>
+             <li id="item5"><a href="#">contato</a></li>
+         
+         </ul>
+     </nav>
+        
+        
+        
+        </body>
+
+    </html>
