@@ -17,8 +17,8 @@ multi=num1*num2;
 div=num1/num2;
 
 cout <<"a soma e: "<<soma<<endl;
-cout <<"a subtraçao e: "<<sub<<endl;
-cout <<"a multiplicaçao e: "<<multi<<endl;
+cout <<"a subtraï¿½ao e: "<<sub<<endl;
+cout <<"a multiplicaï¿½ao e: "<<multi<<endl;
 cout <<"a divisao e: "<<div<<endl;
 
 system("pause");

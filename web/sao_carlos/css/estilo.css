@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* resetando pagina*/
+
+#site {
+    /*id =#  ///class =.*/
+    width: 91%;
+    margin: 2em auto;
+    /*padding: 20px;*/
+    background: none;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 20.8px;
+}
+
+body {
+    background: url(../imagens/SaoCarlosGeral.jpg)no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-color: none;
+    font-size: 21px;
+    text-align: justify;
+    color: #000000;
+
+}
+
+ul {width:100%;
+    list-style: none;
+    text-align: center;/* nao esta funcionando */
+    display: flex;
+    background-color: none;
+    font-size: 35px;
+    padding: 15px;   
+    padding-top: 0px;
+    padding-left:22%;/* para centralizar*/
+   
+}
+
+    ul li {
+        /* background-color: greenyellow;*/
+        padding:15px;
+              
+    }
+
+ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #4682B4;
+    border-radius: 10px;
+
+}
+
+@media(max-width: 960px){/* menu responsivo */
+    ul{display:block;
+       text-align:center;
+       padding:0;}
+    }
+
+
+
+footer {padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
