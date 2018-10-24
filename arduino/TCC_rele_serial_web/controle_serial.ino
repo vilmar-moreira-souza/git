@@ -1,5 +1,5 @@
 
-//controle serial de reles via arduino e app android
+//controle serial de reles via arduino e app android /
 // vilmar m. de souza  
 //ligar rele serial
 
