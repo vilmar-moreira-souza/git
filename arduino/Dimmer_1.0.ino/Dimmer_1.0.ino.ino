@@ -1,8 +1,8 @@
 //https://br-arduino.org/2016/03/arduino-triac-dimmer.html
 // dimmer amanhercer artificial
 
-#include <Ethernet.h>
-#define PINO_ZC 2 // isso nao esta fazendo nada , estva no codigo original
+#include <Ethernet.h> // no meu caso estou usando ethernet shield , PODE REIRAR
+#define PINO_ZC 2 // isso nao esta fazendo nada , estava no codigo original, PODE RETIRAR
 #define PINO_DIM 9
 
 volatile long luminosidade = 0;  // 0 a 100 
@@ -25,7 +25,7 @@ void setup() {
 void loop() {
   for (byte i=20; i<95; i++) {
     luminosidade=i;
-    delay(150);     
+    delay(150);  //esse delay e muito importante   
   }
   delay(1000);
 }
