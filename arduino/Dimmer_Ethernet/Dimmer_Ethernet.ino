@@ -61,26 +61,22 @@ void loop(){
           if(readString.indexOf("?on") > 0)
           {
             lum = 95;   // liga a carga com 95%
-          }
-          else {
+          }          
             if(readString.indexOf("?off") > 0)
             {
               lum = 0;   // liga a carga com 0%  
             }
-            //20%
-            else {
+            //20%            
             if(readString.indexOf("?on20") > 0)
             {
               lum = 20;   // liga a carga com 20%  
             }
-            // 40%
-            else {
+            // 40%            
             if(readString.indexOf("?on40") > 0)
             {
               lum = 40;   // liga a carga com 40%  
             }
-            //60%
-            else {
+            //60%            
             if(readString.indexOf("?on60") > 0)
             {
               lum = 60;   // liga a carga com 60%  
