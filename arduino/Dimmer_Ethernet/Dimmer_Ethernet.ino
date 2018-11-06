@@ -49,11 +49,11 @@ void loop(){
           client.println("<hr />"); //lihna no navegador
           client.println("<br />");           
           client.println("<a href='?on'>Ligar a carga</a>"); //metodo get ligar
-          client.println("<a href='?off'>Desligar a carga</a><br />");         //metodo get desligar
-          client.println("<a href='?on20'>Ligar o led</a>"); //metodo get ligar 20%
-          client.println("<a href='?on40'>Ligar o led</a>"); //metodo get ligar 40%
-          client.println("<a href='?on60'>Ligar o led</a>"); //metodo get ligar 60%
-          client.println("<a href='?on80'>Ligar o led</a>"); //metodo get ligar 80%           
+          client.println("<a href='?off'>Desligar a carga</a> <br/>");         //metodo get desligar
+          client.println("<a href='?on20'>Ligar a carga com 20%</a> <br/>"); //metodo get ligar 20%
+          client.println("<a href='?on40'>Ligar a carga com 40%</a> <br/>"); //metodo get ligar 40%
+          client.println("<a href='?on60'>Ligar a carga com 60%</a> <br/>"); //metodo get ligar 60%
+          client.println("<a href='?on80'>Ligar a carga com 80%</a>"); //metodo get ligar 80%
           client.println("</BODY>");
           client.println("</HTML>");           
           delay(1);
