@@ -1,0 +1,35 @@
+<!--  objetos e arrays -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> objetos e arrays</title>
+    <meta charset="utf-8">
+    <meta name="viewport " content="width=width-device, initial-scale=1 " />
+    <meta name="author" content="vilmar moreira de souza" />
+</head>
+<body>
+    <script>
+        var nome = 'vilmar';
+        var idade = 23;
+        var frutas = ['laranja', 'maça', 'pera'];// acessa console.log[1]
+        var pessoa = {
+            nome: 'vilmar',
+            sobrenomne: 'souza',
+            idade: 23,
+            andar: function () {
+                alert('caminhando')
+            }
+        }; // console.log(pessoa.nome)
+        console.log(pessoa.andar());
+        frutas.push('pitanga'); // adiciona na ultima posiçao
+        console.log(frutas.length); // mostra nro de itens
+        //console.log(frutas.toString);//traz itens como textp
+        //  ("\n" ) pula linha
+        
+        frutas.reverse();// inverte a ordem dos itens
+        console.log(frutas);
+    </script>
+</body>
+
+</html>
