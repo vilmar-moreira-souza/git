@@ -54,6 +54,7 @@ void loop(){
           client.println("<a href='?on40'>Ligar a carga com 40%</a> <br/>"); //metodo get ligar 40%
           client.println("<a href='?on60'>Ligar a carga com 60%</a> <br/>"); //metodo get ligar 60%
           client.println("<a href='?on80'>Ligar a carga com 80%</a>"); //metodo get ligar 80%
+          client.println("<a href='?on100'>Ligar a carga com 100%</a>"); //metodo get ligar 1000%
           client.println("</BODY>");
           client.println("</HTML>");           
           delay(1);
