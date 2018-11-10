@@ -61,7 +61,7 @@ void loop(){
           client.stop();           
           if(readString.indexOf("?on") > 0)
           {
-            lum = 95;   // liga a carga com 95%
+            lum = 0;   // liga a carga com 95%
           }          
             if(readString.indexOf("?off") > 0)
             {
@@ -83,10 +83,15 @@ void loop(){
               lum = 60;   // liga a carga com 60%  
             }
             // 80%
-            else {
-            if(readString.indexOf("?on80") > 0)
+            if (readString.indexOf("?on80") > 0)
             {
-              lum = 80;   // liga a carga com 80%  
+              lum = 80; // liga a carga com 80%
+            }
+            //100%
+            else {
+            if(readString.indexOf("?on100") > 0)
+            {
+              lum = 95;   // liga a carga com 100%  
             }
             
           }
