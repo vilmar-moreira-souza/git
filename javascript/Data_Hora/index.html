@@ -1,0 +1,38 @@
+<!-- data e hora  -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Data e hora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="vilmar-moreira-souza">    
+</head>
+<body>
+    <script>
+        var d =  new Date();
+        //var d = new Date(86400000);//milisegundos
+        console.log(d);
+        console.log(d.toUTCString());
+        console.log(d.toDateString());
+        console.log('getDate ' + d.getDate());
+        console.log('getDate ' + d.getDay());
+        console.log('getDate ' + d.getFullYear());
+        console.log('getDate ' + d.getHours());
+        console.log('getDate ' + d.getMinutes());
+        console.log('getDate ' + d.getMonth());
+        console.log('getDate ' + d.getTime());
+        console.log('getDate ' + d.getMilliseconds());
+        d.setDate(13);// seta data como dia 13
+        console.log(d);        
+        function formataData(data = new Date()) {
+            var dia = data.getDate();
+            var mes = data.getMonth()+1;
+            var ano = data.getFullYear();
+            if (dia.toString().length == 1) dia = '0'+dia;
+            if (mes.toString().length == 1) mes = '0'+mes;             
+            return dia+'/'+mes+'/'+ano;            
+        }
+        console.log(formataData());
+    </script>
+</body>
+</html>
