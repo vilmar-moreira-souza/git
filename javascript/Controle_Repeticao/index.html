@@ -1,0 +1,69 @@
+<!--7-->
+<!-- exemplos para aprendizagem-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="autor" content="vilmar-moreira-souza">
+    <title>estruturas de controle e repetiçao</title>
+</head>
+<body>
+    <script>
+        /*
+         == igual a
+         === igual em valor e tipo
+         != diferente
+         !== diferente em valor e tipo
+         >= maior igual
+         <= menor igual
+         && e
+         || ou
+         ! nao
+        */
+        var idade =20;
+        var situacao = (idade>=18)? 'maioridade': 'menor';
+        var n=6;
+        if (n==5) {
+            console.log("numero verdadeiro");            
+        }else{ console.log("numero falso"); }
+        //
+        console.log(situacao); 
+        //SWITCH
+        var diasemana = new Date().getDay();
+        switch (diasemana) {
+            case 6:
+                console.log("sabado");
+                break;
+            case 0:
+                console.log("domingo");
+                break;                            
+            default:
+                console.log("dia normal");
+                break;
+        }
+        // laço for
+        var linguagem = ['php' ,'c++' ,'html', 'asp'];
+        for (let i = 0; i < linguagem.length; i++) {
+            if (i==2) {continue};   //pula item 2        
+            console.log(linguagem[i]);            
+        }
+        // while
+        var contador=0 ;
+        var linguagens = ['c#','php', 'c++', 'html', 'asp'];
+        while (contador<linguagens.length) {
+            console.log(linguagens[contador]);
+            contador++;
+        }
+
+        var cont = 0;
+        var lingua = [ 'c++', 'html', 'asp'];
+        do {
+             console.log(lingua[cont]);
+             cont++;            
+        } while (cont < lingua.length);
+
+
+    </script>    
+</body>
+</html>
