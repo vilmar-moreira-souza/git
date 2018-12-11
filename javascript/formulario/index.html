@@ -1,0 +1,28 @@
+<!-- -->
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> formulario</title>
+    <meta name="author" content="vilmar">
+</head>
+<body>
+    <h1>capturar valor digitado com javascript</h1>
+    <input type="text" id="valor">
+    <input type="submit" onclick="capturar()" value="escreva algo">
+    <h2 id="valor_digitado" ></h2>
+
+    <!--JAVASCRIPT -->
+    <script>
+        function capturar(){
+            var capturando="";
+            capturando = document.getElementById('valor').value;
+            document.getElementById('valor_digitado').innerHTML = capturando;
+
+            alert(capturando);//mostra um alerta
+        }
+    </script>
+    <!-- -->
+</body>
+</html>
