@@ -1,0 +1,20 @@
+
+instalar tools no vm ware
+sudo apt install open-vm-tools open-vm-tools-desktop
+
+https://linuxhint.com/install_vmware_tools_ubuntu_debian/
+
+
+//
+adicionar usuario sudo
+c durantea instalação nçao for colocado senha o usuario criado tem aceeso comsudo como no UBUNTU
+
+https://www.youtube.com/watch?v=OZ1k0F3yJbo
+
+
+//
+i3 vm instalção e configiração
+
+https://www.youtube.com/watch?v=-geUXpuOJBU
+
+//
