@@ -1,5 +1,4 @@
-color theme = tema 
-material  theme
+color theme = dracula
 
 extensoes=live server
 
